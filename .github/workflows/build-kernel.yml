@@ -8,15 +8,15 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'https://github.com/MiCode/Xiaomi_Kernel_OpenSource'
+        default: 'https://github.com/UtsavBalar1231/kernel_xiaomi_sm8250'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'cmi-r-oss'
+        default: 'android11-stable'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'vendor/cmi_user_defconfig'
+        default: 'cmi_defconfig'
       KERNEL_FILE:
         description: 'Your kernel out image name'
         required: true
